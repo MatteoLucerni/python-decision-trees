@@ -63,4 +63,3 @@ print('=' * 50)
 dotfile = open('tree.dot', 'w')
 export_graphviz(dt, out_file= dotfile, feature_names= titanic.columns.drop('Survived'))
 dotfile.close()
-
